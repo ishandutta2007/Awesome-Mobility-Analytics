@@ -54,7 +54,7 @@ This repository tracks key commercial platforms and open-source frameworks used 
 
 ## 🔓 Open-Source GitHub Projects
 
-The following table lists leading open-source repositories for transport modeling, multimodal trip planning, traffic video analytics, and spatial movement visualization sorted by **GitHub Stars_Count (Descending)**.
+The following table lists leading open-source repositories for transport modeling, multimodal trip planning, traffic video analytics, and spatial movement visualization sorted by **GitHub_Stars_Count (Descending)**.
 
 | Project Name | Github_Stars | Description |
 | :--- | :--- | :--- |
