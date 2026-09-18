@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Mobility-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobility-Analytics?style=flat-square" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobility-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobility-Analytics?style=flat-square" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Mobility-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobility-Analytics?style=flat-square" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Mobility-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Mobility-Analytics?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -54,7 +54,7 @@ This repository tracks key commercial platforms and open-source frameworks used 
 
 ## 🔓 Open-Source GitHub Projects
 
-The following table lists leading open-source repositories for transport modeling, multimodal trip planning, traffic video analytics, and spatial movement visualization sorted by **GitHub Star Count (Descending)**.
+The following table lists leading open-source repositories for transport modeling, multimodal trip planning, traffic video analytics, and spatial movement visualization sorted by **GitHub Stars_Count (Descending)**.
 
 | Project Name | Stars | Description |
 | :--- | :--- | :--- |
@@ -87,7 +87,7 @@ Contributions are welcome! Please follow these simple guidelines:
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/edit** entries in `README.md`.
-3. ℹ️ **Provide essential details:** Project name, link, star count (if open-source), and brief description.
+3. ℹ️ **Provide essential details:** Project name, link, Stars_Count (if open-source), and brief description.
 4. 📬 **Open a Pull Request** with a clear explanation of your additions.
 
 Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists!
