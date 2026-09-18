@@ -56,7 +56,7 @@ This repository tracks key commercial platforms and open-source frameworks used 
 
 The following table lists leading open-source repositories for transport modeling, multimodal trip planning, traffic video analytics, and spatial movement visualization sorted by **GitHub Stars_Count (Descending)**.
 
-| Project Name | Stars | Description |
+| Project Name | Github_Stars | Description |
 | :--- | :--- | :--- |
 | **[Kepler.gl](https://github.com/keplergl/kepler.gl)** | [<img src="https://img.shields.io/github/stars/keplergl/kepler.gl?style=social&color=white" alt="Kepler.gl Stars" />](https://github.com/keplergl/kepler.gl/stargazers) | Data-agnostic high-performance geospatial analysis tool for large-scale mobility datasets. |
 | **[OSMnx](https://github.com/gboeing/osmnx)** | [<img src="https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white" alt="OSMnx Stars" />](https://github.com/gboeing/osmnx/stargazers) | Python package to download, model, analyze, and visualize street networks from OpenStreetMap. |
