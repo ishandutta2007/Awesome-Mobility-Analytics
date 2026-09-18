@@ -1,201 +1,116 @@
-# Awesome-Mobility-Analytics
+# Awesome Mobility Analytics 🚘📊
 
-## Top Mobility Analytics Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Mobility Analytics Banner" width="100%">
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobility-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobility-Analytics?style=flat-square" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobility-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobility-Analytics?style=flat-square" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobility-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Mobility-Analytics?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🚀 Overview & Top Mobility Analytics Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+A curated list of **SaaS Platforms**, **Location Intelligence Engines**, and **Open-Source Urban Movement GitHub Repositories** for transportation analytics, traffic modeling, origin-destination (OD) insights, multimodal trip planning, and spatial statistics.
 
-*Focused on Transportation Analytics, Traffic & Origin-Destination Insights, Multimodal Mobility, Location Intelligence & Urban Movement Data*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Mobility Analytics**. These systems analyze how people and vehicles move—using location data, sensors, cameras, and models—to deliver insights on traffic volumes, origin-destination patterns, mode share, congestion, transit performance, and urban mobility for planners, agencies, and private operators.
-
-
-
-**Examples** include StreetLight Data, Replica, INRIX, UrbanLogiq, Populus, Numina, Citilabs, Cuebiq, TransitScreen, and Steer (the category leaders).
-
-
-
-**Open-source emphasis**: Commercial mobility analytics platforms dominate large-scale, privacy-compliant location data products. Open-source activity is strong in video-based traffic analysis, multimodal trip planning, transport modeling, and research toolkits. This section lists every major relevant project and building block found.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[StreetLight Data](https://www.streetlightdata.com/)**  
-
-  Leading mobility analytics platform providing empirically derived vehicle, bicycle, and pedestrian metrics, origin-destination insights, and roadway performance analytics from anonymized location data.
-
-
-
-- **[Replica](https://www.replicahq.com/)**  
-
-  Platform delivering detailed, modeled mobility and activity data for urban planning, transportation, and built-environment decision making.
-
-
-
-- **[INRIX](https://inrix.com/)**  
-
-  Global mobility intelligence provider offering traffic speeds, travel times, roadway analytics, parking/curb insights, and real-time/historical mobility data.
-
-
-
-- **[UrbanLogiq, Populus, Numina](https://www.urbanlogiq.com/)**  
-
-  Platforms focused on multimodal analytics, curb and shared-mobility management, and computer-vision-based traffic and pedestrian counting.
-
-
-
-- **[Citilabs, Cuebiq, TransitScreen, Steer](https://www.citilabs.com/)**  
-
-  Solutions covering transportation modeling, location intelligence, real-time transit information displays, and mobility consulting/analytics services.
-
-
-
-- **[Other commercial mobility analytics platforms](https://www.streetlightdata.com/)**  
-
-  Additional providers of traffic, OD, mode-share, and urban movement data products for public agencies and private sector use cases.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[OpenTrafficCam](https://github.com/OpenTrafficCam)**  
-
-  Fully integrated open-source framework for video-based traffic recording and automated analysis. Includes camera hardware (OTCamera), object detection/tracking (OTVision), and traffic metrics from trajectories (OTAnalytics).
-
-
-
-- **[OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner)**  
-
-  Leading open-source multi-modal trip planner supporting scheduled public transport, walking, cycling, and mobility services. Built on GTFS and OpenStreetMap; widely used for routing and accessibility analysis.
-
-
-
-- **[Mobility (transport modelling package)](https://github.com/mobility-team/mobility)**  
-
-  Open-source Python package for modelling how people move in a territory—synthetic population, daily activity patterns, multimodal networks, and scenario comparison (focused on regions with suitable open data).
-
-
-
-- **[Conveyal traffic-tools & related engines](https://github.com/conveyal/traffic-tools)**  
-
-  Collection of open tools for roadway traffic analysis, including engines that convert GPS traces into aggregate speed measures and related traffic operations utilities.
-
-
-
-- **[Video & computer-vision traffic projects](https://github.com/search?q=traffic+detection+OR+vehicle+tracking+OR+pedestrian+counting+open+source)**  
-
-  Community repositories for detecting and tracking vehicles, cyclists, and pedestrians from camera feeds to generate counts and trajectories.
-
-
-
-- **[GTFS & transit analytics tools](https://github.com/search?q=GTFS+analytics+OR+transit+performance)**  
-
-  Open libraries and pipelines for processing GTFS feeds, measuring transit performance, and supporting accessibility studies.
-
-
-
-- **[Urban mobility & OD research code](https://github.com/search?q=origin+destination+OR+mobility+analytics+OR+traffic+simulation)**  
-
-  Academic and civic projects for origin-destination estimation, traffic simulation, and mobility pattern analysis from open or collected data.
-
-
-
-- **[GIS & network analysis stacks](https://github.com/search?q=OSMnx+OR+transport+network+analysis)**  
-
-  Open geospatial tools (e.g., OSMnx and related) for extracting and analyzing street networks that underpin many mobility studies.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Video analytics pipelines**: OpenTrafficCam or custom CV models for local traffic counting and classification.
-
-- **Multimodal routing & accessibility**: OpenTripPlanner for itinerary generation and equity/accessibility metrics.
-
-- **Transport demand modeling**: Mobility package and similar tools for scenario-based travel demand estimation.
-
-- **Probe/GPS processing**: Open engines that turn location traces into speed and volume estimates.
-
-- **Open data foundations**: GTFS, OpenStreetMap, and public sensor feeds as inputs to custom analytics.
-
-- Composable stacks: OpenStreetMap + GTFS + OpenTripPlanner + local sensor/CV data + open visualization (Kepler.gl, etc.).
-
-
-
-**Frameworks for building custom systems**:  
-
-There is no single open-source product that fully replicates the scale, privacy-compliant location data products, and polished analytics of StreetLight, Replica, or INRIX.  
-
-Strong open building blocks include **OpenTrafficCam** (video-based analysis), **OpenTripPlanner** (multimodal routing and accessibility), transport modeling packages such as **Mobility**, and general GIS/network tools.  
-
-These enable local, transparent, and cost-effective mobility studies—especially when combined with open data.  
-
-Commercial platforms remain essential for nationwide/global coverage, validated big-data products, and enterprise support. Many agencies and researchers use open tools for specific corridors or research while relying on commercial data products for comprehensive regional analytics.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Mobility analytics often relies on location data that raises privacy and ethical considerations. Ensure compliance with applicable data-protection laws and ethical guidelines when collecting or processing movement data.
-
-- Open-source tools provide transparency and local control but typically require data collection infrastructure, calibration, and analytical expertise. Commercial platforms supply ready-made, large-scale datasets and support. Choose according to geographic scope, data needs, budget, and capacity.
-
-
+> 📅 **Last updated:** September 2026
 
 ---
 
+This repository tracks key commercial platforms and open-source frameworks used by transportation planners, traffic engineers, urban data scientists, and smart city operators to analyze how people and vehicles move across cities and transit networks.
 
+---
 
-**Made for transportation planners, traffic engineers, urban data scientists, and mobility product teams.**  
+## 📑 Table of Contents
 
-Let's expand open, reproducible tools for understanding movement while recognizing the scale and coverage that leading commercial mobility analytics platforms deliver.
+- [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 🏢 SaaS & Commercial Platforms
+
+> 💡 **Market Insights:**  
+> The global **Mobility Analytics & Location Intelligence Sector** is estimated at **~$18.5 Billion (USD)** and is **moderately fragmented**. Key leaders such as INRIX, StreetLight Data, and Replica dominate enterprise and public sector regional deployments, while specialized platforms serve micro-mobility, curb management, and video traffic analytics.
+
+| Platform | Description | Size / Valuation / Revenue | Starting Tier Price | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[INRIX](https://inrix.com/)** | Global mobility intelligence provider offering traffic speeds, travel times, roadway analytics, and parking insights. | Valuation: **~$1.0B+** | $2,500 / month (API Starter Tier) | 14-day free trial with 5,000 API calls |
+| **[StreetLight Data](https://www.streetlightdata.com/)** | Empirically derived vehicle, bicycle, and pedestrian metrics, OD insights, and roadway performance analytics (Acquired by Jacobs). | Valuation / Revenue: **~$500M** | $10,000 / year (Single Corridor Tier) | 30-day free trial with 500 query credits |
+| **[Replica](https://www.replicahq.com/)** | Detailed nationwide modeled mobility and activity data for urban planning and transportation decision-making. | Valuation: **~$300M** | $15,000 / year (Municipal Starter Tier) | 14-day free trial (view-only demo region) |
+| **[Cuebiq](https://www.cuebiq.com/)** | Offline location intelligence, foot-traffic analytics, and mobility insights derived from privacy-compliant mobile SDK data. | Revenue: **~$50M - $100M** | $1,000 / month (Workbench Starter) | 14-day free trial (sample dataset access) |
+| **[Populus](https://www.populus.ai/)** | Curb management and shared mobility platform for cities to manage micromobility, electric vehicles, and curb space. | Valuation / Funding: **~$30M** | $500 / month (City Fleet Starter) | 30-day free trial (1 city zone demo) |
+| **[UrbanLogiq](https://www.urbanlogiq.com/)** | Data integration and multimodal traffic analytics platform for municipal government decision-making. | Funding: **~$15M** | $800 / month (Starter Dashboard Tier) | 14-day free trial (standard demo metrics) |
+| **[Numina](https://numina.co/)** | Computer-vision sensor API for privacy-first tracking of pedestrian, bicycle, and vehicular street activity. | Funding / Revenue: **~$10M** | $300 / sensor / month | 30-day free trial (1 sandbox sensor feed) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The following table lists leading open-source repositories for transport modeling, multimodal trip planning, traffic video analytics, and spatial movement visualization sorted by **GitHub Star Count (Descending)**.
+
+| Project Name | Stars | Description |
+| :--- | :--- | :--- |
+| **[Kepler.gl](https://github.com/keplergl/kepler.gl)** | [<img src="https://img.shields.io/github/stars/keplergl/kepler.gl?style=social&color=white" alt="Kepler.gl Stars" />](https://github.com/keplergl/kepler.gl/stargazers) | Data-agnostic high-performance geospatial analysis tool for large-scale mobility datasets. |
+| **[OSMnx](https://github.com/gboeing/osmnx)** | [<img src="https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white" alt="OSMnx Stars" />](https://github.com/gboeing/osmnx/stargazers) | Python package to download, model, analyze, and visualize street networks from OpenStreetMap. |
+| **[Eclipse SUMO](https://github.com/eclipse-sumo/sumo)** | [<img src="https://img.shields.io/github/stars/eclipse-sumo/sumo?style=social&color=white" alt="Eclipse SUMO Stars" />](https://github.com/eclipse-sumo/sumo/stargazers) | Microscopic and continuous multi-modal traffic simulation package designed to handle large networks. |
+| **[OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner)** | [<img src="https://img.shields.io/github/stars/opentripplanner/OpenTripPlanner?style=social&color=white" alt="OpenTripPlanner Stars" />](https://github.com/opentripplanner/OpenTripPlanner/stargazers) | Open-source multi-modal trip planner supporting scheduled public transport, walking, cycling, and GTFS feeds. |
+| **[MovingPandas](https://github.com/movingpandas/movingpandas)** | [<img src="https://img.shields.io/github/stars/movingpandas/movingpandas?style=social&color=white" alt="MovingPandas Stars" />](https://github.com/movingpandas/movingpandas/stargazers) | Python trajectory manipulation library based on Pandas and GeoPandas for movement data analysis. |
+| **[Flow](https://github.com/flow-project/flow)** | [<img src="https://img.shields.io/github/stars/flow-project/flow?style=social&color=white" alt="Flow Stars" />](https://github.com/flow-project/flow/stargazers) | Reinforcement learning framework for traffic control and autonomous mobility bench-marking. |
+| **[CityFlow](https://github.com/cityflow-project/CityFlow)** | [<img src="https://img.shields.io/github/stars/cityflow-project/CityFlow?style=social&color=white" alt="CityFlow Stars" />](https://github.com/cityflow-project/CityFlow/stargazers) | Multi-agent reinforcement learning environment for large-scale city traffic signal control. |
+| **[MATSim](https://github.com/matsim-org/matsim-libs)** | [<img src="https://img.shields.io/github/stars/matsim-org/matsim-libs?style=social&color=white" alt="MATSim Stars" />](https://github.com/matsim-org/matsim-libs/stargazers) | Multi-Agent Transport Simulation framework for large-scale agent-based transport models. |
+| **[Trackintel](https://github.com/mie-lab/trackintel)** | [<img src="https://img.shields.io/github/stars/mie-lab/trackintel?style=social&color=white" alt="Trackintel Stars" />](https://github.com/mie-lab/trackintel/stargazers) | Python framework for movement trajectory and human mobility data pre-processing and analysis. |
+| **[OpenTrafficCam](https://github.com/OpenTrafficCam)** | [<img src="https://img.shields.io/github/stars/OpenTrafficCam/OTVision?style=social&color=white" alt="OpenTrafficCam Stars" />](https://github.com/OpenTrafficCam/OTVision/stargazers) | Open framework for video-based traffic recording, vehicle detection, and trajectory metrics. |
+
+---
+
+### 🧩 Core Building Blocks & Frameworks
+
+* **Video Analytics Pipelines:** [OpenTrafficCam](https://github.com/OpenTrafficCam) and custom computer vision models for automated traffic counting, vehicle classification, and speed tracking.
+* **Multimodal Routing & Transit:** [OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner) for route planning, Accessibility Isochrones, and transit network analysis via GTFS.
+* **Travel Demand & Micro-simulation:** [Eclipse SUMO](https://github.com/eclipse-sumo/sumo) and [MATSim](https://github.com/matsim-org/matsim-libs) for agent-based transport modeling and scenario evaluation.
+* **Spatial & Trajectory Analytics:** [MovingPandas](https://github.com/movingpandas/movingpandas) and [Trackintel](https://github.com/mie-lab/trackintel) for extracting trip segments, stay points, and movement trajectories.
+* **Interactive Visualization:** [Kepler.gl](https://github.com/keplergl/kepler.gl) for rendering massive trip trajectory files and origin-destination flow maps.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/edit** entries in `README.md`.
+3. ℹ️ **Provide essential details:** Project name, link, star count (if open-source), and brief description.
+4. 📬 **Open a Pull Request** with a clear explanation of your additions.
+
+Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists!
+
+---
+
+## ☕ Support
+
+If you find this repository helpful for your urban planning, traffic engineering, or research projects, please consider giving it a star ⭐️, sharing it with your network, or sponsoring the maintainer!
+
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+</a>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Mobility-Analytics&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Mobility-Analytics&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+* This is a **community-curated list** for informational purposes.
+* Mobility analytics often involves location privacy considerations. Ensure compliance with data-protection laws (GDPR, CCPA, etc.) when deploying movement-tracking technologies.
