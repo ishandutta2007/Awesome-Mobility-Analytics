@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 52px;
+      font-weight: 800;
+      fill: url(#textGrad);
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      fill: #94a3b8;
+    }
+    .grid-line {
+      stroke: #334155;
+      stroke-width: 0.5;
+      stroke-dasharray: 4 4;
+      opacity: 0.4;
+    }
+    .flow-line {
+      fill: none;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      opacity: 0.75;
+    }
+    .pulse-dot {
+      animation: pulse 3s infinite alternate;
+    }
+    @keyframes pulse {
+      0% { opacity: 0.3; transform: scale(0.98); }
+      100% { opacity: 1; transform: scale(1.02); }
+    }
+    @keyframes dash {
+      to {
+        stroke-dashoffset: -40;
+      }
+    }
+    .animated-route {
+      stroke-dasharray: 8 6;
+      animation: dash 2s linear infinite;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Background Grid Network -->
+  <g opacity="0.3">
+    <line x1="100" y1="0" x2="100" y2="320" class="grid-line" />
+    <line x1="300" y1="0" x2="300" y2="320" class="grid-line" />
+    <line x1="500" y1="0" x2="500" y2="320" class="grid-line" />
+    <line x1="700" y1="0" x2="700" y2="320" class="grid-line" />
+    <line x1="900" y1="0" x2="900" y2="320" class="grid-line" />
+    <line x1="1100" y1="0" x2="1100" y2="320" class="grid-line" />
+
+    <line x1="0" y1="60" x2="1200" y2="60" class="grid-line" />
+    <line x1="0" y1="140" x2="1200" y2="140" class="grid-line" />
+    <line x1="0" y1="220" x2="1200" y2="220" class="grid-line" />
+    <line x1="0" y1="280" x2="1200" y2="280" class="grid-line" />
+  </g>
+
+  <!-- Dynamic Animated Mobility Flow Paths in Background -->
+  <g class="pulse-dot">
+    <path d="M -50,220 Q 200,60 450,230 T 950,110 T 1250,250" class="flow-line animated-route" stroke="#38bdf8" />
+    <path d="M -50,100 Q 300,280 600,120 T 1100,260" class="flow-line animated-route" stroke="#818cf8" />
+    <path d="M 100,350 Q 400,80 800,240 T 1250,50" class="flow-line animated-route" stroke="#c084fc" />
+  </g>
+
+  <!-- Dynamic Glowing Nodes -->
+  <g filter="url(#glow)">
+    <circle cx="450" cy="230" r="6" fill="#38bdf8" />
+    <circle cx="600" cy="120" r="5" fill="#818cf8" />
+    <circle cx="800" cy="240" r="7" fill="#c084fc" />
+    <circle cx="950" cy="110" r="5" fill="#38bdf8" />
+  </g>
+
+  <!-- Foreground Title and Subtitle Container -->
+  <g transform="translate(600, 140)" text-anchor="middle">
+    <!-- Dark semi-transparent pill overlay for guaranteed readability -->
+    <rect x="-420" y="-70" width="840" height="150" rx="24" fill="#0f172a" fill-opacity="0.75" stroke="#334155" stroke-width="1.5" />
+    
+    <text y="-10" class="title">Awesome Mobility Analytics 🚘📊</text>
+    <text y="42" class="subtitle">Curated SaaS Platforms, Location Intelligence &amp; Open-Source Urban Movement Tools</text>
+  </g>
+</svg>
